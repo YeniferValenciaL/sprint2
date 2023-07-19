@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #FFD6A5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    width: 100%;
+    background-color:#EF6262;
+    position: sticky;
+    top: 0px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    width: 100%;
+    background-color: #EF6262;
+
+}
+nav a{
+    display: flex;
+    background-color: #EF6262;
+    color: #CBFFA9;
+    font-size: 17pt;
+
+}
+nav a[href="#"]{
+    background-color: rgb(38, 149, 101);
+}
+.logo{
+    background-color: #EF6262;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.containerimage{
+    display: flex;
+    justify-content: center;
+
+}
+.imageprincipal{
+    display: flex;
+    width: 65rem;
+    max-height: 20rem;
+    
+
+}
+.contenedor{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+}
+.parrafo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 1rem;
+    font-size: 17pt;
+    margin-left: 6rem;
+}    
+.imagen{
+    display: flex;  
+    height: 20rem;
+    padding: 2rem;
+    margin-right: 5rem;
+
+}
+div img{
+    display: flex;
+    width: 20rem;
+    height: 20rem;
+    margin: 2rem;
+}
+.container1{
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+}
+.texto1{
+    display: flex;
+    flex-basis: 25rem;
+    text-align: justify;
+}
+.image1{
+    width: 20rem;
+    margin-left: 7rem;
+}
+.container2{
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+}
+.texto2{
+    display: flex;
+    flex-basis: 25rem;
+    text-align: justify;
+}
+.image2{
+    width: 20rem;
+    margin-left: 7rem;
+}
+.container3{
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+    text-align: justify;
+}
+.texto3{
+    display: flex;
+    flex-basis: 25rem;
+}
+.image3{
+    width: 20rem;
+    margin-left: 7rem;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: #EF6262;
+}
+/*Aqui empieza el codigo css de la pagina 3 llamada Contact*/
+.page3{
+    display: flex;
+    justify-content: center;
+    
+}
+.principal{
+    display: flex;
+    flex-basis: 48rem;
+}
+.parrafofinal{
+    display: flex;
+    text-align: justify;
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
+.contacto{
+    display: flex;
+    padding: 1.5rem;
+    justify-content: space-around;
+    font-size: 16pt;
+}
+/*Aqui comienza el codigo CSS de la pagina 4*/
+
+.default{
+    display: flex;
+    align-items: center;
+    margin: 7rem;
+    text-align: justify;
+    font-size: 13pt;
+
+}
+.titlefinal{
+    padding-top: 8rem
+    display: flex;
+}
+.table, td{
+    border: solid 2px black;
+    margin-top: 8rem;
+}
+.titulolista{
+    text-align: center;
+}
+/*Aqui empieza el codigo CSS de la pagina 5*/
+.beneficios{
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+}
+.imagebeneficios{
+    width: 20rem;
+    margin-left: 2rem; 
+}
+*.listabeneficios{
+    display: flex;
+    flex-basis: 25rem;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 15pt;
+    text-align: justify;
+
+}
+.tips{
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+}
+.listatips{
+    display: flex;
+    flex-basis: 25rem;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 15pt;
+}
